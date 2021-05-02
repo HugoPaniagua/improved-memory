@@ -1,0 +1,36 @@
+/* IMPORTANTE -NO AÑADIR PADDING AL CONTENEDOR PRINCIPAL */
+/* PD: NO SUPERAR LOS 100 DE WIDTH EN LA MISMA CLASE */
+/* PD2: EL VLAOR LADOS SE SUMA EN EL CASO NO ESPECIFICAR (5 = 10)*/
+
+*{
+    
+}
+
+.navMainContainer{
+    width: 100vw;
+    height: 15vh;
+}
+
+.navMenuContainer{
+    background-color: black;
+    width: 60vw;
+    height: 15vh;
+    padding: 0vh 20vw
+}
+
+.menuContainer{
+    background-color: yellow;
+    width:56vw;
+    height:11vh;
+    padding: 2vh 2vw;
+}
+
+.navMenu{
+    font-family: 'Orelega One', cursive !important;
+    border-style: double;
+    background-color: yellow;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
